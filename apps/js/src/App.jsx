@@ -18,7 +18,7 @@ export default function App() {
   function add() {
     const val = text.trim();
     if (!val) return;
-    setNotes([{ id: crypto.randomUUID(), text: val, done: false, createdAt: new Date().toISOString() }, ...notes]);
+    setNotes([{ id: crypto.randomUUIDgit config --global user.name "Sienna"(), text: val, done: false, createdAt: new Date().toISOString() }, ...notes]);
     setText('');
   }
 
@@ -38,7 +38,7 @@ export default function App() {
 
   return (
     <main style={{ maxWidth: 720, margin: '2rem auto', fontFamily: 'system-ui,sans-serif' }}>
-      <h1>Notes App (JavaScript)</h1>
+      <h1>Sienna's Notes App (JavaScript)</h1>
 
       <div style={{ display: 'flex', gap: 8 }}>
         <input
